@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-// https://solidity-by-example.org/immutable/
 pragma solidity ^0.8.2;
 
+// https://solidity-by-example.org/immutable/
 contract Immutable {
     // Immutables cannot be changed outside of the constructor
     // Like constants, the convention is to use upper-case

@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
 
+// https://solidity-by-example.org/first-app
 contract Counter {
     uint public count;
 

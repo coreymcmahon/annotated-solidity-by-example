@@ -1,9 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
 
+// https://solidity-by-example.org/variables/
 contract Variables {
     // State variables
     // Stored on the blockchain (more gas, but persist between transactions)
+    // In order to write or update a state variable you need to send a transaction. You can read state variables, for free.
     string public text = "Hello";
     uint public num = 123;
 

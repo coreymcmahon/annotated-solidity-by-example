@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.3;
 
+// https://solidity-by-example.org/mapping/
 contract Mapping {
     // Mapping from address to uint
     mapping(address => uint) public myMap;

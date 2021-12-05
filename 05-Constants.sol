@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
 
+// https://solidity-by-example.org/constants
 contract Constants {
     // Constants use less gas (but obviously cannot be changed)
     // Convention is to use upper-case to define constants

@@ -10,4 +10,4 @@ Do not use any code in this repository for actual contracts deployed on mainnet.
 
 ## License
 
-See [LICENSE.md].
+See [LICENSE.md](LICENSE.md).
