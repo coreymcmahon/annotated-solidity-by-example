@@ -10,6 +10,11 @@ contract Counter {
         return count;
     }
 
+    // Function visibility modifiers:
+    //  public - all can access
+    //  external - cannot be accessed internally, only externally (can save gas as variables are accessed via calldata)
+    //  internal - only this contract and contracts deriving from it can access
+    //  private - can be accessed only from this contract
     function inc() public {
         count++;
     }

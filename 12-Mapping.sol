@@ -16,6 +16,7 @@ contract Mapping {
     }
 
     function remove (address _addr) public {
+        // Deleting removes the stored value and resets to the default value (e.g 0 for uint)
         delete myMap[_addr];
     }
 }

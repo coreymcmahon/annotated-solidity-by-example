@@ -6,6 +6,7 @@ pragma solidity ^0.8.2;
 contract StateVariables {
     uint public num;
 
+    // Use underscore to prevent name collision with state variables
     function set(uint _num) public {
         num = _num;
     }
